@@ -6,8 +6,19 @@ print(n1)
 n2 = int(input("Dame otro numero: "))
 print(n2)
 
-#operacion
-suma = n1 + n2
+print("¿Qué quieres hacer")
+print("1---Sumar")
+print("2---Restar")
 
-#imprimir resultado
-print("El resultado es "+ str(suma))
+operacion = input()
+
+salida = "El resultado es {}"
+
+#SUMA
+if operacion == "Sumar" or operacion == "sumar" or operacion == "1" :
+    print(salida.format(int(n1+n2)))
+
+#RESTA
+if operacion == "Restar" or operacion == "restar" or operacion == "2" :
+    print(salida.format(int(n1-n2)))
+
