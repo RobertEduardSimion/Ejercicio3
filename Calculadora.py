@@ -22,3 +22,6 @@ if operacion == "Sumar" or operacion == "sumar" or operacion == "1" :
 if operacion == "Restar" or operacion == "restar" or operacion == "2" :
     print(salida.format(int(n1-n2)))
 
+#MULTIPLICACIÓN
+if operacion == "Multiplicar" or operacion == "multiplicar" or operacion == "3" :
+    print(salida.format(int(n1*n2)))
