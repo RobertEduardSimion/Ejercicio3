@@ -9,12 +9,14 @@ print(n2)
 print("¿Qué quieres hacer")
 print("1---Sumar")
 print("2---Restar")
+print("3---Multiplicar")
+print("4---Dividir")
 
 operacion = input()
 
 salida = "El resultado es {}"
 
-#SUMA
+#SUMA modificada
 if operacion == "Sumar" or operacion == "sumar" or operacion == "1" :
     print(salida.format(int(n1+n2)))
 
@@ -22,3 +24,10 @@ if operacion == "Sumar" or operacion == "sumar" or operacion == "1" :
 if operacion == "Restar" or operacion == "restar" or operacion == "2" :
     print(salida.format(int(n1-n2)))
 
+#MULTIPLICACIÓN
+if operacion == "Multiplicar" or operacion == "multiplicar" or operacion == "3" :
+    print(salida.format(int(n1*n2)))
+
+#DIVISIÓN
+if operacion == "Dividir" or operacion == "dividir" or operacion == "4" :
+    print(salida.format(int(n1/n2)))
