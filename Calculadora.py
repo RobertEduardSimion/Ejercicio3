@@ -31,3 +31,4 @@ if operacion == "Multiplicar" or operacion == "multiplicar" or operacion == "3" 
 #DIVISIÓN
 if operacion == "Dividir" or operacion == "dividir" or operacion == "4" :
     print(salida.format(int(n1/n2)))
+
